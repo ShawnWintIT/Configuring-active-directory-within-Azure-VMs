@@ -47,7 +47,7 @@ We must ensure connectivity between domain controller and Client virtual machine
 <br />
 
 <p>
-<img src=https://i.imgur.com/PEOiqQI.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/jrBEiBn.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Reconnect into Clinet VM. Open Powershell, ping -t your domain controller private ip address to see if there is a successful connection.
