@@ -39,9 +39,16 @@ Create a domain controller and a client virtual machine. Set the domain's contro
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/Ja25H4x.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We must ensure connectivity between domain controller and Client virtual machine. Login into Domain controller VM and enable ICMPv4 in local firewall settings. 
 </p>
 <br />
+
+<p>
+<img src=https://i.imgur.com/PEOiqQI.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Reconnect into Clinet VM. Open Powershell, ping -t your domain controller private ip address to see if there is a successful connection.
+
