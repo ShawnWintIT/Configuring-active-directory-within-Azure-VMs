@@ -66,4 +66,12 @@ Connect to DC VM and Install Active Directory. Server Manager should be in your 
 <img src= https://i.imgur.com/OgHZjTd.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Promote server as a domain controller -> add a new forest-> name domain mydomain.com.  
+Promote server as a domain controller -> add a new forest-> name domain mydomain.com.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/2sM3XZG.png height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Restart Domain controller VM. We are going to create an Admin and normal user account in AD. To open up active directory, select active directory users and computers under tools in service manager. Next we will create a couple of organizational units, right click mydomain.com or whatever name you chose. Select new then organizational units, name them _EMPLOYEES and _ADMINS. 
