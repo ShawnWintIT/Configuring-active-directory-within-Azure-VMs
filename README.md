@@ -50,5 +50,20 @@ We must ensure connectivity between domain controller and Client virtual machine
 <img src=https://i.imgur.com/jrBEiBn.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Reconnect into Clinet VM. Open Powershell, ping -t your domain controller private ip address to see if there is a successful connection.
+Reconnect into Clinet VM,open Powershell. Ping -t your domain controller private ip address to see if there is a successful connection.
+</p>
+<br /v
 
+<p>
+<img src= https://i.imgur.com/pUy7x8L.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Connect to DC VM and Install Active Directory. Server Manager should be in your background, if not click start menu, tap server manager under windows server. Add roles and features -> install active dicerectory domain services -> install.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/OgHZjTd.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Promote server as a domain controller -> add a new forest-> name domain mydomain.com.  
