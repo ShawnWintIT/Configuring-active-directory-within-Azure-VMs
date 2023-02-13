@@ -131,5 +131,12 @@ We are going to join the client vm to the domain (mydomain.com). Right click sta
 </p>
 <p>
 Next we will setup non admin users to log into Client VM. You should be logged into client Vm already, right click the start menu and go to system-> remote desktop-> under user accounts select users  that can remotely access this PC-> tap add-> type domain users-> tap check names-> tap okay. 
-  
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/3zmxHCq.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+next we will be creating a bunch of additional users and attepmt to login as one. First we are going to open up powershell.ISE but make sure to run it as an administrator by right clicking.   
   
