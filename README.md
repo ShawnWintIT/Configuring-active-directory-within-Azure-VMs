@@ -98,5 +98,29 @@ Add jane_admin to the "domain admins" Secruity group. right click the active dir
 <img src= https://i.imgur.com/U6kCVIE.png height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
-From now on, we will be able to log in as an admin as jane_admin.   
+From now on, we will be able to log in as an admin as jane_admin.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/Soa2gnx.png height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+From the Azure portal, we will alter Client-1's DNS settings to the DC's Private IP address. From the Azure portal, restart Client VM.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/mmHExB5.png height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+</p>
+<p>
+Login into Client Vm as the original admin which is labuser. go into command prompt or powershell to check for hostname, whoami, and also for your new client dns server setting.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/BawSOlb.png height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src= https://i.imgur.com/EWGEPeU.png height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p> 
+<p>
+We are going to join the client vm to the domain (mydomain.com). Right click start menu -> system -> rename pc -> change-> type mydomain.com in member of-> ok -> set computer name/ domain name and password to the admin info you set earlier. In my case my user name is mydomain.com\jane_admin.
   
