@@ -139,4 +139,26 @@ Next we will setup non admin users to log into Client VM. You should be logged i
 </p>
 <p>
 next we will be creating a bunch of additional users and attepmt to login as one. First we are going to open up powershell.ISE but make sure to run it as an administrator by right clicking.   
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/30jWE6T.png height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+To generate thousands of users for the domain, we will utilize a script to input into powershell.ISE by creating a new file and pasting the contents. After pasting the contents, run the script and observe the creation of thousands of users. Next we will choose one user and log into Client-1.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/CQX5OsK.png height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+</p>
+<p>
+To see all the users, open active directory and check under _employees. I will be choosing a random user by the name of tal.sun to log into client Vm.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/1Gmg8R5.png height="80%" width="80%" alt="Disk Sanitization Steps"/>      
+  
   
