@@ -159,6 +159,9 @@ To see all the users, open active directory and check under _employees. I will b
 <br /v
 
 <p>
-<img src= https://i.imgur.com/1Gmg8R5.png height="80%" width="80%" alt="Disk Sanitization Steps"/>      
+<img src= https://i.imgur.com/1Gmg8R5.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ As you can see, a user named "tal.Sun" was created via a PowerShell script. With the login information, we were able to access Client-1 as an ordinary user.
   
   
