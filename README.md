@@ -123,4 +123,13 @@ Login into Client Vm as the original admin which is labuser. go into command pro
 </p> 
 <p>
 We are going to join the client vm to the domain (mydomain.com). Right click start menu -> system -> rename pc -> change-> type mydomain.com in member of-> ok -> set computer name/ domain name and password to the admin info you set earlier. In my case my user name is mydomain.com\jane_admin.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/t412yeG.png height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+Next we will setup non admin users to log into Client VM. You should be logged into client Vm already, right click the start menu and go to system-> remote desktop-> under user accounts select users  that can remotely access this PC-> tap add-> type domain users-> tap check names-> tap okay. 
+  
   
