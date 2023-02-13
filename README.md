@@ -75,3 +75,28 @@ Promote server as a domain controller -> add a new forest-> name domain mydomain
 </p>
 <p>
 Restart Domain controller VM. We are going to create an Admin and normal user account in AD. To open up active directory, select active directory users and computers under tools in service manager. Next we will create a couple of organizational units, right click mydomain.com or whatever name you chose. Select new then organizational units, name them _EMPLOYEES and _ADMINS. 
+</p>
+<br /v
+
+<p>
+<img src=https://i.imgur.com/k1WSfoN.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  right click inside of your _employees OU and select new user and fill out the proper information for your new user. The user name for this practice will be jane Doe, she is going to be an Admin.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/lyUgXpH.png height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Add jane_admin to the "domain admins" Secruity group. right click the active directory account jane admin, then select properties -> member of -> add -> type domain then check names-> select domain admin-> apply-> ok. 
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/U6kCVIE.png height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+From now on, we will be able to log in as an admin as jane_admin.   
+  
