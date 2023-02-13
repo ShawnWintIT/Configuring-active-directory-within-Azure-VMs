@@ -151,7 +151,7 @@ To generate thousands of users for the domain, we will utilize a script to input
 <br /v
 
 <p>
-<img src= https://i.imgur.com/CQX5OsK.png height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+<img src= https://i.imgur.com/F3fBINe.png height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 </p>
 <p>
 To see all the users, open active directory and check under _employees. I will be choosing a random user by the name of tal.sun to log into client Vm.
